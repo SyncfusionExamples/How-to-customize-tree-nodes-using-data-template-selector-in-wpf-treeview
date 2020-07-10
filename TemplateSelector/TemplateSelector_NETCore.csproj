@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>NodeWithImageDemo</AssemblyName>
+    <RootNamespace>NodeWithImageDemo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.SfBusyIndicator.WPF">
+    </Reference>
+    <Reference Include="Syncfusion.SfGridCommon.WPF">
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.Wpf">
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeView.WPF">
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\treeview_exe.png" />
+    <Resource Include="Icons\treeview_folder.png" />
+    <Resource Include="Icons\treeview_img0.png" />
+    <Resource Include="Icons\treeview_img1.png" />
+    <Resource Include="Icons\treeview_mp3.png" />
+    <Resource Include="Icons\treeview_pdf.png" />
+    <Resource Include="Icons\treeview_png.png" />
+    <Resource Include="Icons\treeview_ppt.png" />
+    <Resource Include="Icons\treeview_video.png" />
+    <Resource Include="Icons\treeview_word.png" />
+    <Resource Include="Icons\treeview_zip.png" />
+  </ItemGroup>
+</Project>
