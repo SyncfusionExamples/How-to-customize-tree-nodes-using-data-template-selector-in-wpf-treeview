@@ -1,6 +1,6 @@
-# How to customize tree nodes using data template selector in WPF TreeView
+# How to Customize Tree Nodes Using Data Template Selector in WPF TreeView?
 
-This repository describes how to customize tree nodes using data template selector in [WPF TreeView](https://www.syncfusion.com/wpf-controls/treeview) (SfTreeView)
+This repository describes how to customize tree nodes using data template selector in [WPF TreeView](https://www.syncfusion.com/wpf-controls/treeview) (SfTreeView).
 
 The TreeView allows you to customize the appearance of each item with different templates based on specific constraints by using the [ItemTemplateSelector](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeView.SfTreeView.html#Syncfusion_UI_Xaml_TreeView_SfTreeView_ItemTemplateSelector). You can choose a [DataTemplate](https://docs.microsoft.com/en-us/dotnet/api/system.windows.datatemplate?view=netcore-3.1) for each item at runtime based on the value of data-bound property using `ItemTemplateSelector`.
 
@@ -57,3 +57,5 @@ class ItemTemplateSelector : DataTemplateSelector
     }
 }
 ```
+
+![Customizing the appreance of the tree nodes using DataTemplateSelector](CustomizeAppearanceUsingTemplateSelector.png)
